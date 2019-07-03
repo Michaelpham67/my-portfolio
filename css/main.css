@@ -41,6 +41,14 @@ main {
     
 }
 
+.full-width1 {
+    border: 1px solid purple;
+    height: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
 #header-halfwidth1 {
     height: 90px;
     float: left;
@@ -121,6 +129,42 @@ nav ul li a {
     
 }
 
+.full-width2 {
+    border: 1px solid orange;
+    height: 40px;
+    margin: 0px 0px 30px 0px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#portfolio-halfwidth1 {
+    border: 1px solid purple;
+    height: 400px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 0px 30px 0px 145px;
+    text-align: left;
+    width: 550px;
+    
+}
+
+
+#portfolio-halfwidth2 {
+    border: 1px solid purple;
+    height: 400px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 0px 30px 0px 145px;
+    text-align: left;
+    width: 550px;
+    
+}
+
 #portfolio img {
     padding-bottom: 30px;
     
@@ -163,30 +207,37 @@ nav ul li a {
     
 }
 
-#about-halfwidth1 {
-    border: 1px solid purple;
-    height: 420px;
+.full-width3 {
+    border: 1px solid orange;
+    height: 100px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px 0px 100px 0px;
     float: left;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 21px;
-    line-height: 40px;
-    padding: 105px 20px 0px 100px;
+    width: 1460px;
+    text-align: center;
+    
+}
+
+.about-halfwidth1 {
+    border: 1px solid purple;
+    height: 400px;
+    float: left;
+    padding: 0px 20px 0px 120px;
     text-align: left;
     width: 550px;
     
 }
 
-
 #about-halfwidth2 {
     border: 1px solid purple;
-    height: 350px;
+    height: 400px;
     float: left;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 21px;
     line-height: 40px;
-    padding: 180px 30px 0px 145px;
+    padding: 0px 30px 0px 20px;
     text-align: left;
-    width: 550px;
+    width: 650px;
     
 }
 
@@ -214,27 +265,9 @@ nav ul li a {
     
 }
 
-.contact-halfwidth {
-    border: 1px solid purple;
-    height: 440px;
-    float: left;
-    padding: 100px 5px 0px 120px;
-    text-align: left;
-    width: 560px;
-    
-}
-
-.full-width {
+.full-width4 {
     border: 1px solid orange;
     height: 390px;
-    padding: 10px;
-    margin: 0 auto;
-    
-}
-
-.full-width1 {
-    border: 1px solid purple;
-    height: 800px;
     padding: 10px;
     margin: 0 auto;
     
