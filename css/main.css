@@ -1,0 +1,345 @@
+/*
+
+MAIN CSS Sheet for My Portfolio Website
+
+Font used
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+
+**Will modify for responsive design** 
+
+*/
+
+/* Adding a Comment in this CSS file to display the branches and isolated changes */
+
+body {
+    /*border: 1px solid purple;*/
+    background-color: #ffffff;
+    height: auto;
+    /*height: 2600px;*/
+    overflow: auto;
+    width: auto;
+    
+}
+
+main {
+    /*border: 1px solid purple;*/
+    
+}
+
+/* HEADER AREA */
+
+#header1 {
+    background: url('../img/mountains-backdrop.JPG') repeat;
+    background-size: cover;
+    background-position: right bottom;
+    /*border: 1px solid purple;*/
+    height: 800px;
+    padding: 10px;
+    width: auto;
+    
+}
+
+#header-halfwidth2 ul li a{
+    color: #095256;
+    text-decoration: none;
+    
+}
+
+#header-halfwidth2 ul li a:hover {
+    color: black;
+}
+
+.half-width {
+    /*border: 1px solid purple;*/
+    
+}
+
+.first-h1 {
+    color: #095256;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 30px;
+    
+}
+
+.first-h2 {
+    /*border: 1px solid purple;*/
+    font-size: 72px;
+    line-height: 80px;
+    
+}
+
+#header-halfwidth1, #header-halfwidth2 {
+    /*border: 1px solid purple;*/
+    height: 90px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 40px;
+    padding: 0px 20px 20px 55px;
+    text-align: left;
+    width: 610px;
+    
+}
+
+.header-text-style {
+    font-size: 72px;
+    line-height: 80px;
+    padding: 0px 0px 0px 80px;
+    
+}
+
+nav{
+    /*border: 1px solid purple;*/
+    height: 60px;
+    padding: 0px 0px 0px 250px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vh;
+    
+}
+
+.nav-list-items{
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif; 
+    list-style-type: none;
+    margin-left: 100px;
+
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+/* PORTFOLIO AREA */
+
+#portfolio {
+    background-color: white;
+    /*border: 1px solid purple;*/
+    height: 600px;
+    padding: 10px;
+    
+}
+
+#portfolio img {
+    padding-bottom: 30px;
+    
+}
+
+#portfolio h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    
+}
+
+#portfolio p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    
+}
+
+.third-width {
+    /*border: 1px solid purple;*/
+    float: left;
+    height: 360px;
+    padding: 85px 20px 0px 60px;
+    text-align: center;
+    width: 400px;
+    
+}
+
+/* ABOUT AREA */
+
+
+#about {
+    background-color: #087e8b;
+    /*border: 1px solid purple;*/
+    height: 600px;
+    padding: 10px;
+    
+}
+
+#about-halfwidth1 {
+    /*border: 1px solid purple;*/
+    height: 420px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 105px 20px 0px 100px;
+    text-align: left;
+    width: 550px;
+    
+}
+
+
+#about-halfwidth2 {
+    /*border: 1px solid purple;*/
+    height: 350px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 180px 30px 0px 145px;
+    text-align: left;
+    width: 550px;
+    
+}
+
+.about-p-styles {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+
+/* CONTACT AREA */
+
+#contact {
+    background-color: #095156;
+    /*border: 1px solid purple;*/
+    clear: both;
+    height: 600px;
+    padding: 10px;
+    
+}
+
+.contact-halfwidth {
+    /*border: 1px solid purple;*/
+    height: 440px;
+    float: left;
+    padding: 100px 5px 0px 120px;
+    text-align: left;
+    width: 560px;
+    
+}
+
+.full-width {
+    /*border: 1px solid purple;*/
+    height: 560px;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+.full-width1 {
+    /*border: 1px solid purple;*/
+    height: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+.header-by-icons {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 29px;
+    line-height: 20px;
+    
+}
+
+.header-above-email {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 32px;
+    line-height: 0px;
+    
+}
+
+.header-above-above-email {
+    color: #2b2b2b;
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    line-height: 30px;
+    
+}
+
+#contact a {
+    font-size: 22px;
+    font-weight: bold;
+    
+    
+}
+
+#contact-info {
+    /*border: 1px solid purple;*/
+    height: 440px;
+    float: left;
+    padding: 120px 0px 0px 120px;
+    text-align: left;
+    width: 560px;
+    
+}
+
+.contact-list-items{
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 0px;
+    list-style-type: none;
+    padding: 0 60px 0px 0px;
+
+}
+
+a:link{
+    color: #C49075;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+/* MISC. AREA */
+
+/*.bolded-leters {
+    font-weight: bold;
+    
+}
+
+.black-lora-font {
+    color: #2b2b2b; 
+    font-family: 'Lora', serif;
+    
+}
+
+.black-source-sans-pro-font {
+    color: #2b2b2b; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    
+}
+
+#font-size36 {
+    font-size: 36px;
+    
+}
+
+.bolded-text {
+    font-size: 29px;
+    font-weight: bold;
+    
+}
+
+.unbolded-text {
+    font-weight: normal;
+    
+}
+*/
+
+.arrow-size {
+    padding: 0px 0px 0px 1450px;
+    
+}
+
