@@ -9,10 +9,9 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif;
 
 **Will modify for responsive design** 
+**Revise CSS Comments and Code (reorganize, rearrange, etc.)**
 
 */
-
-/* Adding a Comment in this CSS file to display the branches and isolated changes */
 
 body {
     border: 5px solid purple;
@@ -88,7 +87,7 @@ main {
     color: #f0f40b;
     font-size: 60px;
     line-height: 60px;
-    padding: 200px 0px 0px 400px;
+    padding: 200px 100px 0px 240px;
     margin-right: auto;
     margin-left: auto;
     
@@ -186,16 +185,6 @@ nav ul li a {
     
 }
 
-.third-width {
-    border: 1px solid red;
-    float: left;
-    height: 300px;
-    padding: 85px 20px 0px 60px;
-    text-align: center;
-    width: 400px;
-    
-}
-
 /* ABOUT AREA */
 
 
@@ -267,9 +256,22 @@ nav ul li a {
 
 .full-width4 {
     border: 1px solid orange;
-    height: 390px;
-    padding: 10px;
-    margin: 0 auto;
+    height: 50px;
+    padding: 30px 0px 0px 0px;
+    margin-bottom: 20px;
+    float: left;
+    width: 1460px;
+    text-align: center;
+    
+}
+
+.third-width {
+    border: 1px solid red;
+    float: left;
+    height: 230px;
+    padding: 60px 20px 0px 60px;
+    text-align: center;
+    width: 400px;
     
 }
 
