@@ -42,14 +42,26 @@ main {
     
 }
 
-#header-halfwidth2 ul li a{
-    color: #095256;
+#header-halfwidth1 {
+    /*border: 1px solid purple;*/
+    height: 90px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 40px;
+    padding: 0px 20px 20px 55px;
+    text-align: left;
+    width: 610px;
+    
+}
+
+#header-halfwidth1 ul li a{
+    color: #14afb8;
     text-decoration: none;
     
 }
 
-#header-halfwidth2 ul li a:hover {
-    color: black;
+#header-halfwidth1 ul li a:hover {
+    color: #f0f40b;
 }
 
 .half-width {
@@ -65,29 +77,15 @@ main {
     
 }
 
-.first-h2 {
-    /*border: 1px solid purple;*/
-    font-size: 72px;
-    line-height: 80px;
-    
-}
-
-#header-halfwidth1, #header-halfwidth2 {
-    /*border: 1px solid purple;*/
-    height: 90px;
-    float: left;
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 40px;
-    padding: 0px 20px 20px 55px;
-    text-align: left;
-    width: 610px;
-    
-}
 
 .header-text-style {
-    font-size: 72px;
-    line-height: 80px;
-    padding: 0px 0px 0px 80px;
+    /*color: #bdbf09;*/
+    color: #f0f40b;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 200px 0px 0px 400px;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
