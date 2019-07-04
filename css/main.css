@@ -77,12 +77,13 @@ main {
 
 .header-text-style {
     /*color: #bdbf09;*/
-    color: #f0f40b;
+    color: #d8db0a;
     font-size: 60px;
     line-height: 60px;
     padding: 200px 50px 0px 300px;
     margin-right: auto;
     margin-left: auto;
+    text-shadow: 0.5px 0.5px black;
     
 }
 
