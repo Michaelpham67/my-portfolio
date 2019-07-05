@@ -263,7 +263,7 @@ nav ul li a {
 .full-width3 {
     border: 1px solid orange;
     height: 100px;
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 80px 0px;
     float: left;
     width: 195vh;
     text-align: center;
@@ -280,10 +280,9 @@ nav ul li a {
 
 .about-halfwidth1 {
     border: 1px solid purple;
-    height: 400px;
+    height: 365px;
     float: left;
-    padding: 0px 20px 0px 120px;
-    text-align: left;
+    padding: 35px 20px 0px 120px;
     width: 550px;
     
 }
@@ -292,9 +291,6 @@ nav ul li a {
     border: 1px solid purple;
     height: 400px;
     float: left;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 21px;
-    line-height: 40px;
     padding: 0px 30px 0px 20px;
     text-align: left;
     width: 650px;
@@ -302,9 +298,17 @@ nav ul li a {
 }
 
 .about-p-styles {
-    font-size: 21px;
-    color: #7f7f7f;
-    line-height: 40px;
+    font-size: 22pt;
+    font-weight: 300;
+    color: white;
+    
+}
+
+.about-subheader {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
     
 }
 
