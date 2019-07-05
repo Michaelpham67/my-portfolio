@@ -50,7 +50,7 @@ main {
     float: left;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 40px;
-    padding: 0px 17.5% 0px 17.5%;
+    padding: 0px 16% 0px 16%;
     
 }
 
@@ -116,37 +116,36 @@ nav ul li a {
 
 #portfolio {
     background-color: white;
-    border: 1px solid red;
     height: 1450px;
     padding: 10px;
     
 }
 
 .full-width2 {
-    border: 1px solid orange;
+
     height: 90px;
     float: left;
     margin: 0px 0px 40px 0px;
-    text-align: center;
+    padding: 0px 0px 0px 43%;
     width: 100%;
     
 }
 
 .portfolio-halfwidth1 {
-    border: 1px solid purple;
+
     height: 400px;
     float: left;
-    padding: 40px 0px 0px 120px;
+    padding: 40px 0px 0px 100px;
     width: 40%;
     
 }
 
 
 .portfolio-halfwidth2 {
-    border: 1px solid purple;
-    height: 440px;
+
+    height: 435px;
     float: left;
-    padding: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 5px;
     text-align: left;
     width: 50%;
     
@@ -162,8 +161,6 @@ nav ul li a {
 
 #portfolio img {
     border: 1px solid #b7b7b7;
-    height: 350px;
-    width: 550px;
     
 }
 /*
@@ -186,16 +183,16 @@ nav ul li a {
     opacity: 0;
     top: 50%;
     left: 50%;
-    transform: translate( -3%, -400%);
+    transform: translate( 0.25%, -400%);
     -ms-transform: translate(-50%, -50%);
-    width: 100%;
+    width: 550px;
     /*transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);*/
     text-align: center;
     
 }
 
-.text {
+.text-overlay1 {
     background-color: #4CAF50;
     color: white;
     font-size: 1em;
@@ -203,6 +200,21 @@ nav ul li a {
     
 }
 
+.text-overlay2 {
+    background-color: #F9CEB7;
+    color: white;
+    font-size: 1em;
+    padding: 1em 2em;
+    
+}
+
+.text-overlay3 {
+    background-color: #14afb8;
+    color: white;
+    font-size: 1em;
+    padding: 1em 2em;
+    
+}
 .portfolio-halfwidth1:hover .image {
     opacity: 0.3;
     
@@ -224,7 +236,7 @@ nav ul li a {
 .portfolio-p-styles {
     color: #14afb8;
     font-family: 'Roboto', sans-serif;
-    font-size: 24pt;
+    font-size: 22pt;
     
 }
 
@@ -384,6 +396,11 @@ a:link{
 
 /* MISC. AREA */
 
+.arrow-up {
+    padding: 0px 0px 0px 1450px;
+    
+}
+
 /*.bolded-leters {
     font-weight: bold;
     
@@ -418,7 +435,7 @@ a:link{
 }
 
 
-.arrow-size {
+.arrow-up {
     padding: 0px 0px 0px 1450px;
     
 }
