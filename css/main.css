@@ -65,14 +65,14 @@ body {
 #header-halfwidth1 ul li a{
     color: #14afb8;
     text-decoration: none;
-    text-shadow: 0.5px 0.5px white;
+    text-shadow: 1px 1px white;
     
 }
 
 #header-halfwidth1 ul li a:hover {
     color: #f0f40b;
     text-decoration:overline; 
-    text-shadow: 0.5px 0.5px white;
+    text-shadow: 1px 1px white;
     
 }
 
@@ -93,7 +93,7 @@ body {
     padding: 200px 50px 0px 300px;
     margin-right: auto;
     margin-left: auto;
-    text-shadow: 0.5px 0.5px white;
+    text-shadow: 1px 1px white;
     
 }
 
@@ -123,19 +123,17 @@ nav ul li a {
 /* PORTFOLIO AREA */
 
 #portfolio {
-    border: 1px solid red;
     background-color: white;
     height: 1450px;
-    padding: 10px;
+    padding: 0;
     
 }
 
 .full-width2 {
-    border: 1px solid red;
-    height: 90px;
+    height: 100px;
     float: left;
     margin: 0px 0px 40px 0px;
-    padding: 0px 0px 0px 43%;
+    padding: 0px 0px 0px 41.5%;
     width: 112vh;
     
 }
@@ -162,7 +160,7 @@ nav ul li a {
 
 .portfolio-header {
     color: #14afb8;
-    font-size: 36px;
+    font-size: 36pt;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     
@@ -172,6 +170,7 @@ nav ul li a {
     border: 1px solid #b7b7b7;
     
 }
+
 /*
 #portfolio img:hover {
     opacity: 0.3;
@@ -224,6 +223,7 @@ nav ul li a {
     padding: 1em 2em;
     
 }
+
 .portfolio-halfwidth1:hover .image {
     opacity: 0.3;
     
@@ -237,7 +237,7 @@ nav ul li a {
 .portfolio-subheader {
     color: #14afb8;
     font-family: 'Roboto', sans-serif;
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: bold;
     
 }
@@ -250,7 +250,6 @@ nav ul li a {
 }
 
 /* ABOUT AREA */
-
 
 #about {
     background-color: #087e8b;
@@ -272,7 +271,7 @@ nav ul li a {
 
 .about-header {
     color: white;
-    font-size: 36px;
+    font-size: 36pt;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     
@@ -298,6 +297,7 @@ nav ul li a {
 }
 
 .about-p-styles {
+    font-family: 'Roboto', sans-serif;
     font-size: 22pt;
     font-weight: 300;
     color: white;
@@ -331,8 +331,7 @@ nav ul li a {
 
 .full-width4 {
     border: 1px solid orange;
-    height: 50px;
-    padding: 30px 0px 0px 0px;
+    height: 90px;
     margin-bottom: 20px;
     float: left;
     width: 195vh;
@@ -347,6 +346,14 @@ nav ul li a {
     padding: 60px 20px 0px 60px;
     text-align: center;
     width: 400px;
+    
+}
+
+.contact-header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32pt;
+    font-weight: bold;
     
 }
 
@@ -400,6 +407,21 @@ nav ul li a {
 
 }
 
+.contact-subheader {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    
+}
+
+.contact-p-styles {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22pt;
+    
+}
+
 a:link{
     color: #C49075;
     font-size: 22px;
@@ -410,7 +432,7 @@ a:link{
 /* MISC. AREA */
 
 .arrow-up {
-    padding: 0px 0px 0px 1000px;
+    padding: 188vh 0px 0px 0px;
     
 }
 
