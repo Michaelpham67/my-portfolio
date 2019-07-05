@@ -40,15 +40,16 @@ body {
     background: url('../img/mountains-backdrop.JPG') repeat;
     background-size: cover;
     background-position: right bottom;
-    height: 800px;
-    padding: 10px;
+    /*height: 120vh;*/
+    /*height: 800px;*/
+    padding: 0.625em;
     width: auto;
     
 }
 
 .full-width1 {
-    height: 800px;
-    padding: 10px;
+    height: 50em;
+    padding: 0.625em;
     margin: 0 auto;
     
 }
@@ -56,9 +57,9 @@ body {
 #header-halfwidth1 {
     float: left;
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 40px;
+    line-height: 2.5em;
     padding: 0px 15% 0px 15%;
-    width: 100vh;
+    width: 68vw;
     
 }
 
@@ -76,21 +77,12 @@ body {
     
 }
 
-.first-h1 {
-    color: #095256;
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    padding: 30px;
-    
-}
-
-
 .header-text-style {
     /*color: #bdbf09;*/
     color: #d8db0a;
-    font-size: 60px;
+    font-size: 3.75em;
     line-height: 60px;
-    padding: 200px 50px 0px 300px;
+    padding: 30vh 2vw 0vh 20vw;
     margin-right: auto;
     margin-left: auto;
     text-shadow: 1px 1px white;
@@ -98,7 +90,7 @@ body {
 }
 
 nav {
-    height: 60px;
+    height: 3.75em;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -116,7 +108,7 @@ nav {
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.3em;
     
 }
 
@@ -124,17 +116,17 @@ nav ul li a {
 
 #portfolio {
     background-color: white;
-    height: 1450px;
+    height: 90.625em;
     padding: 0;
     
 }
 
 .full-width2 {
-    height: 100px;
+    height: 6.25em;
     float: left;
-    margin: 0px 0px 40px 0px;
-    padding: 0px 0px 0px 41.5%;
-    width: 112vh;
+    margin: 0 0 2.5em 0;
+    padding: 0 0 0 41.5%;
+    width: 57vw;
     
 }
 
@@ -342,75 +334,34 @@ nav ul li a {
 .third-width {
     border: 1px solid red;
     float: left;
-    height: 230px;
-    padding: 60px 20px 0px 60px;
+    height: 38vh;
+    padding: 0px 0px 0px 0px;
     text-align: center;
-    width: 400px;
+    width: 65vh;
     
 }
 
 .contact-header {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 32pt;
+    font-size: 2.75em;
     font-weight: bold;
     
 }
 
-.header-by-icons {
-    color: #2b2b2b;
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 29px;
-    line-height: 20px;
-    
-}
-
-.header-above-email {
-    color: #2b2b2b;
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 32px;
-    line-height: 0px;
-    
-}
-
-.header-above-above-email {
-    color: #2b2b2b;
-    font-family: 'Lora', serif; 
-    font-size: 36px;
-    line-height: 30px;
-    
-}
-
-#contact a {
-    font-size: 22px;
-    font-weight: bold;
-    
-    
-}
-
-#contact-info {
-    border: 1px solid purple;
-    height: 440px;
-    float: left;
-    padding: 120px 0px 0px 120px;
-    text-align: left;
-    width: 560px;
-    
-}
-
-.contact-list-items{
+/*.contact-list-items{
     float: left;
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 0px;
     list-style-type: none;
     padding: 0 60px 0px 0px;
 
-}
+}*/
 
 .contact-subheader {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 22pt;
+    font-size: 24pt;
     font-weight: bold;
     
 }
@@ -418,13 +369,20 @@ nav ul li a {
 .contact-p-styles {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 22pt;
+    font-size: 24pt;
     
 }
 
-a:link{
-    color: #C49075;
-    font-size: 22px;
+#contact a:link{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+}
+
+#contact a:hover{
+    color: #d8db0a;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     
 }
