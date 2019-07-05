@@ -13,19 +13,26 @@ font-family: 'Lato', sans-serif;
 
 */
 
+html {
+    width: 100%;
+    height: 100%;
+    
+}
 body {
-    border: 5px solid purple;
+    width: 100%;
+    height: 100%;
+    background-color: #bbb;
+    
+}
+
+/*body {
     background-color: #ffffff;
+    border: 5px solid yellow;
     height: auto;
     overflow: auto;
     width: auto;
     
-}
-
-main {
-    border: 2px solid orange;
-    
-}
+}*/
 
 /* HEADER AREA */
 
@@ -50,7 +57,8 @@ main {
     float: left;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 40px;
-    padding: 0px 16% 0px 16%;
+    padding: 0px 15% 0px 15%;
+    width: 100vh;
     
 }
 
@@ -115,6 +123,7 @@ nav ul li a {
 /* PORTFOLIO AREA */
 
 #portfolio {
+    border: 1px solid red;
     background-color: white;
     height: 1450px;
     padding: 10px;
@@ -122,12 +131,12 @@ nav ul li a {
 }
 
 .full-width2 {
-
+    border: 1px solid red;
     height: 90px;
     float: left;
     margin: 0px 0px 40px 0px;
     padding: 0px 0px 0px 43%;
-    width: 100%;
+    width: 112vh;
     
 }
 
@@ -256,7 +265,7 @@ nav ul li a {
     height: 100px;
     margin: 0px 0px 100px 0px;
     float: left;
-    width: 1460px;
+    width: 195vh;
     text-align: center;
     
 }
@@ -322,7 +331,7 @@ nav ul li a {
     padding: 30px 0px 0px 0px;
     margin-bottom: 20px;
     float: left;
-    width: 1460px;
+    width: 195vh;
     text-align: center;
     
 }
@@ -397,7 +406,7 @@ a:link{
 /* MISC. AREA */
 
 .arrow-up {
-    padding: 0px 0px 0px 1450px;
+    padding: 0px 0px 0px 1000px;
     
 }
 
