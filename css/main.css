@@ -108,7 +108,7 @@ nav {
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.5em;
     
 }
 
@@ -124,7 +124,8 @@ nav ul li a {
 .full-width2 {
     height: 6.25em;
     float: left;
-    margin: 0 0 2.5em 0;
+    line-height: 0;
+    margin: 0 0 2em 0;
     padding: 0 0 0 41.5%;
     width: 57vw;
     
@@ -257,6 +258,7 @@ nav ul li a {
     margin: 0px 0px 80px 0px;
     float: left;
     width: 195vh;
+    line-height: 0;
     text-align: center;
     
 }
@@ -323,9 +325,10 @@ nav ul li a {
 
 .full-width4 {
     border: 1px solid orange;
-    height: 90px;
-    margin-bottom: 20px;
     float: left;
+    height: 90px;
+    line-height: 0;
+    margin-bottom: 20px;
     width: 195vh;
     text-align: center;
     
@@ -334,8 +337,8 @@ nav ul li a {
 .third-width {
     border: 1px solid red;
     float: left;
-    height: 38vh;
-    padding: 0px 0px 0px 0px;
+    height: 33vh;
+    padding: 0 0 0 0;
     text-align: center;
     width: 65vh;
     
@@ -384,6 +387,18 @@ nav ul li a {
     color: #d8db0a;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    
+}
+
+#copyright-div {
+    color: white;
+    height: 5.5vh;
+    float: left;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.44em 0 0 0;
+    text-align: center;
+    width: 97vw;
     
 }
 
