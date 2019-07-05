@@ -93,7 +93,7 @@ nav {
     height: 60px;
     margin-right: auto;
     margin-left: auto;
-    width: 870px;
+    width: 100%;
     
 }
 
@@ -126,29 +126,29 @@ nav ul li a {
     border: 1px solid orange;
     height: 90px;
     float: left;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 40px 0px;
     text-align: center;
-    width: 1450px;
+    width: 100%;
     
 }
 
-#portfolio-halfwidth1 {
+.portfolio-halfwidth1 {
     border: 1px solid purple;
-    height: 420px;
+    height: 400px;
     float: left;
-    padding: 0px 50px 0px 0px;
-    width: 45%;
+    padding: 40px 0px 0px 120px;
+    width: 40%;
     
 }
 
 
-#portfolio-halfwidth2 {
+.portfolio-halfwidth2 {
     border: 1px solid purple;
-    height: 420px;
+    height: 440px;
     float: left;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
     text-align: left;
-    width: 45%;
+    width: 50%;
     
 }
 
@@ -157,9 +157,59 @@ nav ul li a {
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    
 }
 
 #portfolio img {
+    border: 1px solid #b7b7b7;
+    height: 350px;
+    width: 550px;
+    
+}
+/*
+#portfolio img:hover {
+    opacity: 0.3;
+    transition: 0.5s ease;
+    
+}*/
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate( -3%, -400%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    /*transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);*/
+    text-align: center;
+    
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    padding: 1em 2em;
+    
+}
+
+.portfolio-halfwidth1:hover .image {
+    opacity: 0.3;
+    
+}
+
+.portfolio-halfwidth1:hover .middle {
+    opacity: 0.8;
     
 }
 
@@ -168,6 +218,7 @@ nav ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: 24pt;
     font-weight: bold;
+    
 }
 
 .portfolio-p-styles {
@@ -216,7 +267,7 @@ nav ul li a {
     
 }
 
-#about-halfwidth2 {
+.about-halfwidth2 {
     border: 1px solid purple;
     height: 400px;
     float: left;
