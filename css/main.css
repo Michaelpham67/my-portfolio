@@ -339,7 +339,7 @@ nav ul li a {
     height: 90px;
     line-height: 0;
     margin-bottom: 20px;
-    width: 195vh;
+    width: 200vh;
     text-align: center;
     
 }
@@ -347,7 +347,7 @@ nav ul li a {
 .third-width {
     float: left;
     height: 33vh;
-    padding: 0 0 0 3.5em;
+    padding: 0 0 0 4em;
     text-align: center;
     width: 55vh;
     
@@ -445,9 +445,9 @@ nav ul li a {
     float: left;
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
-    padding: 0.44em 0 0 1em;
+    padding: 0.44em 0 0 3em;
     text-align: center;
-    width: 93vw;
+    width: 90vw;
     
 }
 
