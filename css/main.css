@@ -287,7 +287,7 @@ nav ul li a {
 .about-halfwidth1 {
     height: 365px;
     float: left;
-    padding: 35px 20px 0px 120px;
+    padding: 0px 20px 0px 120px;
     width: 550px;
     
 }
@@ -406,25 +406,26 @@ nav ul li a {
     
 }
 
-#linkedin-logo {
+.linkedin-logo {
     background: url("../img/linkedin.png") no-repeat;
     display: block;
+    
 }
 
-#linkedin-logo:hover {
+.linkedin-logo:hover {
     background: url("../img/linkedin-active.png") no-repeat;
     
 }
 
 
-#github-logo {
+.github-logo {
     /*background: url('../img/mountains-backdrop.JPG') no-repeat;*/
     background: url("../img/github.png") no-repeat;
     display: block;
     
 }
 
-#github-logo:hover {
+.github-logo:hover {
     background: url("../img/github-active.png") no-repeat;
     
 }
@@ -441,9 +442,9 @@ nav ul li a {
     float: left;
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
-    padding: 0.44em 0 0 0;
+    padding: 0.44em 0 0 1em;
     text-align: center;
-    width: 95vw;
+    width: 93vw;
     
 }
 
@@ -455,17 +456,18 @@ nav ul li a {
 }
 
 #portfolio a .arrow-size {
-    padding: 0.5em 0 0 92em;
+    padding: 0.25em 0 0 92em;
     
 }
 
 #about a .arrow-size {
-    padding: 3em 0 0 91.5em;
+    padding: 2.5em 0 0 91.5em;
     
 }
 
 #contact a .arrow-size {
-    padding: 1em 0 0 0.5em;
+    padding: 1em 0 0 1em;
+    
 }
 
 #contact-arrow {
