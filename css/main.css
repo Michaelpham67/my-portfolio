@@ -275,6 +275,7 @@ nav ul li a {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     padding: 0.5em 0em 0em 0em;
+    text-shadow: 0.25px 0.25px black;
     
 }
 
@@ -296,6 +297,7 @@ nav ul li a {
     float: left;
     padding: 0px 30px 0px 20px;
     text-align: left;
+    text-shadow: 0.25px 0.25px black;
     width: 47.5vw;
     
 }
@@ -409,12 +411,23 @@ nav ul li a {
 
 .linkedin {
     display:block;
-    background:transparent url('twitterbird.png') center top no-repeat;
+    background:transparent url('../img/linkedin.png') center top no-repeat;
 }
+
+.linkedin:hover {
+    background-image: url('../img/linkedin-active.png');
+    
+}
+
 
 .github {
     display:block;
-    background:transparent url('twitterbird.png') center top no-repeat;
+    background:transparent url('../img/github.png') center top no-repeat;
+    
+}
+
+.github:hover {
+    background-image: url('../img/github-active.png');
     
 }
 
