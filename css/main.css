@@ -402,33 +402,36 @@ nav ul li a {
 #contact ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px 0 20px;
+    margin: 0 0 0 0;
+    padding: 0 2vw 0 0;
     
 }
 
+/*
+
 .linkedin-logo {
-    background: url("../img/linkedin.png") no-repeat;
+    background:transparent url("../img/linkedin.png") no-repeat;
     display: block;
     
 }
 
 .linkedin-logo:hover {
-    background: url("../img/linkedin-active.png") no-repeat;
+    background-image: url("../img/linkedin-active.png") no-repeat;
     
 }
 
-
 .github-logo {
-    /*background: url('../img/mountains-backdrop.JPG') no-repeat;*/
-    background: url("../img/github.png") no-repeat;
+    background:transparent url("../img/github.png") no-repeat;
     display: block;
     
 }
 
 .github-logo:hover {
-    background: url("../img/github-active.png") no-repeat;
+    background-image: url("../img/github-active.png") no-repeat;
     
 }
+
+*/
 
 .contact-list-items{
     font-size: 0px;
