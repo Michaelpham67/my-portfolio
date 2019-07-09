@@ -37,11 +37,12 @@ body {
 /* HEADER AREA */
 
 #header1 {
-    background: url('../img/mountains-backdrop.JPG') repeat;
+    background: url('../img/mountains-backdrop.JPG') no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    background-position: right bottom;
+    background-position: center;
     /*height: 120vh;*/
-    /*height: 800px;*/
+    height: 100%;
     padding: 0.625em;
     width: auto;
     
@@ -82,7 +83,7 @@ body {
     color: #d8db0a;
     font-size: 3.75em;
     line-height: 60px;
-    padding: 30vh 2vw 0vh 20vw;
+    padding: 25vh 2vw 0vh 20vw;
     margin-right: auto;
     margin-left: auto;
     text-shadow: 1px 1px white;
@@ -135,7 +136,7 @@ nav ul li a {
 
     height: 375px;
     float: left;
-    padding: 40px 0px 0px 100px;
+    padding: 50px 0px 0px 100px;
     width: 40%;
     
 }
@@ -145,7 +146,7 @@ nav ul li a {
 
     height: 410px;
     float: left;
-    padding: 5px 0px 0px 5px;
+    padding: 15px 0px 0px 5px;
     text-align: left;
     width: 50%;
     
@@ -156,6 +157,7 @@ nav ul li a {
     font-size: 36pt;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    padding: 0.5em 0em 0em 0em;
     
 }
 
@@ -245,15 +247,19 @@ nav ul li a {
 /* ABOUT AREA */
 
 #about {
-    background-color: #087e8b;
-    border: 1px solid purple;
+    /*background-color: #087e8b;*/
     height: 650px;
     padding: 10px;
+    background: url('../img/hero-image.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /*height: 120vh;*/
+    width: auto;
     
 }
 
 .full-width3 {
-    border: 1px solid orange;
     height: 100px;
     margin: 0px 0px 80px 0px;
     float: left;
@@ -264,15 +270,20 @@ nav ul li a {
 }
 
 .about-header {
-    color: white;
+    color: #14afb8;
     font-size: 36pt;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    padding: 0.5em 0em 0em 0em;
+    
+}
+
+#about img {
+    border: 0.5px solid;
     
 }
 
 .about-halfwidth1 {
-    border: 1px solid purple;
     height: 365px;
     float: left;
     padding: 35px 20px 0px 120px;
@@ -281,7 +292,6 @@ nav ul li a {
 }
 
 .about-halfwidth2 {
-    border: 1px solid purple;
     height: 400px;
     float: left;
     padding: 0px 30px 0px 20px;
@@ -291,15 +301,15 @@ nav ul li a {
 }
 
 .about-p-styles {
+    color: #14afb8;
     font-family: 'Roboto', sans-serif;
     font-size: 22pt;
     font-weight: 300;
-    color: white;
     
 }
 
 .about-subheader {
-    color: white;
+    color: #14afb8;
     font-family: 'Roboto', sans-serif;
     font-size: 24pt;
     font-weight: bold;
@@ -397,8 +407,14 @@ nav ul li a {
     
 }
 
-#contact ul li a:hover {
-    mix-blend-mode: multiply;
+.linkedin {
+    display:block;
+    background:transparent url('twitterbird.png') center top no-repeat;
+}
+
+.github {
+    display:block;
+    background:transparent url('twitterbird.png') center top no-repeat;
     
 }
 
