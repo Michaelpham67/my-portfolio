@@ -26,6 +26,7 @@ body {
 
 /*--------------- HEADER AREA ---------------*/
 
+/* The background image section */
 #header1 {
     background: url('../img/mountains-backdrop.JPG') no-repeat;
     background-attachment: fixed;
@@ -43,7 +44,6 @@ body {
     padding: 0.625em;
     
 }
-
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
@@ -53,11 +53,11 @@ body {
     width: 68vw;
     
 }
-
+/* The Nav Bar list elements */
 #header-halfwidth1 ul li a {
     color: #14afb8;
     text-decoration: none;
-    text-shadow: 0.05em 0.05em white;
+    text-shadow: 0.025em 0.025em white;
     
 }
 
@@ -66,7 +66,7 @@ body {
     text-decoration: overline; 
     
 }
-
+/* The main header text */
 .header-text-style {
     color: #d8db0a;
     font-family: 'Roboto', sans-serif;
@@ -85,7 +85,7 @@ nav {
     width: 100%;
     
 }
-
+/* Styling for the Nav elements */
 .nav-list-items{
     float: left;
     font-family: 'Source Sans Pro', sans-serif; 
@@ -108,7 +108,7 @@ nav ul li a {
     height: 90.625em;
     
 }
-
+/* The div of the main Portfolio header */
 .full-width2 {
     height: 6.25em;
     float: left;
@@ -118,7 +118,16 @@ nav ul li a {
     width: 57vw;
     
 }
-
+/* styling of the main Portfolio header */
+.portfolio-header {
+    color: #14afb8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0.5em 0 0 0.25em;
+    
+}
+/* The left Portfolio div section */
 .portfolio-halfwidth1 {
     height: 375px;
     float: left;
@@ -126,31 +135,21 @@ nav ul li a {
     width: 40%;
     
 }
-
-
+/* The right Portfolio div section */
 .portfolio-halfwidth2 {
-    height: 410px;
+    height: 25.625em;
     float: left;
-    padding: 0.9375em 0 0 0.3125px;
+    padding: 0.9375em 0 0 0.01953em;
     text-align: left;
     width: 50%;
     
 }
-
-.portfolio-header {
-    color: #14afb8;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.5em;
-    font-weight: bold;
-    padding: 0.5em 0 0 0;
-    
-}
-
+/* styling of the Portfolio images */
 #portfolio img {
     border: 1px solid #b7b7b7;
     
 }
-
+/* Adding an opacity overlay effect when hovering over the portfolio images */
 .image {
     backface-visibility: hidden;
     display: block;
@@ -170,7 +169,7 @@ nav ul li a {
     transition: .5s ease;
     
 }
-
+/* Adding a text overlay effect when hovering over the portfolio images */
 .text-overlay1 {
     background-color: #4CAF50;
     color: white;
@@ -204,7 +203,7 @@ nav ul li a {
     opacity: 0.8;
     
 }
-
+/* The subheaders of the right side portfolio sections */
 .portfolio-subheader {
     color: #14afb8;
     font-family: 'Roboto', sans-serif;
@@ -212,7 +211,7 @@ nav ul li a {
     font-weight: bold;
     
 }
-
+/* The paragraphs of the right side portfolio sections */
 .portfolio-p-styles {
     color: #14afb8;
     font-family: 'Lato', sans-serif;
@@ -222,6 +221,7 @@ nav ul li a {
 
 /*--------------- ABOUT AREA ---------------*/
 
+/* The background image div of the about section */
 #about {
     background: url('../img/clouds.JPG') no-repeat;
     background-attachment: fixed;
@@ -232,7 +232,7 @@ nav ul li a {
     width: auto;
     
 }
-
+/* The main header div of the About section */
 .full-width3 {
     float: left;
     height: 6.25em;
@@ -242,7 +242,7 @@ nav ul li a {
     width: 195vh;
     
 }
-
+/* The styling of the about main header */
 .about-header {
     color: #14afb8;
     font-family: 'Roboto', sans-serif;
@@ -252,20 +252,20 @@ nav ul li a {
     text-shadow: 0.015em 0.015em white;
     
 }
-
-#about img {
-    border: 0.03em solid grey;
-    
+/* Styling of the profile image */
+.about-image {
+    height: 350px;
+    width: 350px;
 }
-
+/* The left div of the about section consisting of the profile image */
 .about-halfwidth1 {
     height: 22.8125em;
     float: left;
-    padding: 0 1.25em 0 7.5em;
-    width: 34.375em;
+    padding: 0 1.25em 0 12em;
+    width: 30em;
     
 }
-
+/* The right div of the about section consisting of the about me section */
 .about-halfwidth2 {
     height: 25em;
     float: left;
@@ -275,7 +275,7 @@ nav ul li a {
     width: 47.5vw;
     
 }
-
+/* The paragraphs of the about me section */
 .about-p-styles {
     color: #14afb8;
     font-family: 'Montserrat', sans-serif;
@@ -284,7 +284,7 @@ nav ul li a {
     text-shadow: 0.01em 0.01em white;
     
 }
-
+/* The subheaders of the about me section */
 .about-subheader {
     color: #14afb8;
     font-family: 'Lato', sans-serif;
@@ -411,7 +411,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
     float: left;
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
-    padding: 0.44em 0 0 3.5em;
+    padding: 0.44em 0 0 3.25em;
     text-align: center;
     width: 86vw;
     
@@ -436,7 +436,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 }
 
 #contact a .arrow-size {
-    padding: 1em 0 0 4.75em;
+    padding: 1em 0 0 4.9em;
     
 }
 
