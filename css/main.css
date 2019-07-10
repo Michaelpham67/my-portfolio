@@ -1,5 +1,4 @@
 /*
-
 MAIN CSS Sheet for My Portfolio Website
 
 Fonts used
@@ -10,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif;
 
 **Will modify for responsive design** 
-**Revise CSS Comments and Code (reorganize, rearrange, etc.)**
+
 */
 
 html, body {  
@@ -37,6 +36,7 @@ body {
     width: auto;
     
 }
+
 /* The whole header section */
 .full-width1 {
     height: 50em;
@@ -44,6 +44,7 @@ body {
     padding: 0.625em;
     
 }
+
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
@@ -53,6 +54,7 @@ body {
     width: 68vw;
     
 }
+
 /* The Nav Bar list elements */
 #header-halfwidth1 ul li a {
     color: #14afb8;
@@ -66,6 +68,7 @@ body {
     text-decoration: overline; 
     
 }
+
 /* The main header text */
 .header-text-style {
     color: #d8db0a;
@@ -85,6 +88,7 @@ nav {
     width: 100%;
     
 }
+
 /* Styling for the Nav elements */
 .nav-list-items{
     float: left;
@@ -108,6 +112,7 @@ nav ul li a {
     height: 90.625em;
     
 }
+
 /* The div of the main Portfolio header */
 .full-width2 {
     height: 6.25em;
@@ -118,6 +123,7 @@ nav ul li a {
     width: 57vw;
     
 }
+
 /* styling of the main Portfolio header */
 .portfolio-header {
     color: #14afb8;
@@ -127,6 +133,7 @@ nav ul li a {
     padding: 0.5em 0 0 0.25em;
     
 }
+
 /* The left Portfolio div section */
 .portfolio-halfwidth1 {
     height: 375px;
@@ -135,6 +142,7 @@ nav ul li a {
     width: 40%;
     
 }
+
 /* The right Portfolio div section */
 .portfolio-halfwidth2 {
     height: 25.625em;
@@ -144,11 +152,13 @@ nav ul li a {
     width: 50%;
     
 }
+
 /* styling of the Portfolio images */
 #portfolio img {
     border: 1px solid #b7b7b7;
     
 }
+
 /* Adding an opacity overlay effect when hovering over the portfolio images */
 .image {
     backface-visibility: hidden;
@@ -169,6 +179,7 @@ nav ul li a {
     transition: .5s ease;
     
 }
+
 /* Adding a text overlay effect when hovering over the portfolio images */
 .text-overlay1 {
     background-color: #4CAF50;
@@ -203,6 +214,7 @@ nav ul li a {
     opacity: 0.8;
     
 }
+
 /* The subheaders of the right side portfolio sections */
 .portfolio-subheader {
     color: #14afb8;
@@ -211,6 +223,7 @@ nav ul li a {
     font-weight: bold;
     
 }
+
 /* The paragraphs of the right side portfolio sections */
 .portfolio-p-styles {
     color: #14afb8;
@@ -232,6 +245,7 @@ nav ul li a {
     width: auto;
     
 }
+
 /* The main header div of the About section */
 .full-width3 {
     float: left;
@@ -242,6 +256,7 @@ nav ul li a {
     width: 195vh;
     
 }
+
 /* The styling of the about main header */
 .about-header {
     color: #14afb8;
@@ -252,11 +267,13 @@ nav ul li a {
     text-shadow: 0.015em 0.015em white;
     
 }
+
 /* Styling of the profile image */
 .about-image {
     height: 350px;
     width: 350px;
 }
+
 /* The left div of the about section consisting of the profile image */
 .about-halfwidth1 {
     height: 22.8125em;
@@ -265,6 +282,7 @@ nav ul li a {
     width: 30em;
     
 }
+
 /* The right div of the about section consisting of the about me section */
 .about-halfwidth2 {
     height: 25em;
@@ -275,6 +293,7 @@ nav ul li a {
     width: 47.5vw;
     
 }
+
 /* The paragraphs of the about me section */
 .about-p-styles {
     color: #14afb8;
@@ -284,6 +303,7 @@ nav ul li a {
     text-shadow: 0.01em 0.01em white;
     
 }
+
 /* The subheaders of the about me section */
 .about-subheader {
     color: #14afb8;
@@ -304,6 +324,7 @@ nav ul li a {
     
 }
 
+/* The div of the main header of the contacts section */
 .full-width4 {
     float: left;
     height: 5.625em;
@@ -314,6 +335,16 @@ nav ul li a {
     
 }
 
+/* The main header of the contacts section */
+.contact-header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.75em;
+    font-weight: bold;
+    
+}
+
+/* The 3 divs of the contacts section */
 .third-width {
     float: left;
     height: 30vh;
@@ -323,14 +354,7 @@ nav ul li a {
     
 }
 
-.contact-header {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.75em;
-    font-weight: bold;
-    
-}
-
+/* The subheaders of each section of the contacts section */
 .contact-subheader {
     color: white;
     font-family: 'Lato', sans-serif;
@@ -339,6 +363,7 @@ nav ul li a {
     
 }
 
+/* The paragraphs of each section of the contacts section */
 .contact-p-styles {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -346,6 +371,7 @@ nav ul li a {
     
 }
 
+/* Adding a yellow text hover when the user goes over the phone number and email text */
 #contact a:link{
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -358,12 +384,33 @@ nav ul li a {
     
 }
 
+/* Styling of the GitHub and LinkedIn logo links */
 #contact ul li {
     list-style: none;
     display: inline-block;
     float: left;
     margin: 0 0 0 0;
     padding: 0 0 0 5.25vw;
+    
+}
+
+/* Styling of the GitHub and LinkedIn logo links */
+.contact-list-items{
+    font-size: 0;
+    list-style-type: none;
+
+}
+
+/* The bottom footer div */
+#copyright-div {
+    color: white;
+    height: 5.5vh;
+    float: left;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    padding: 0.44em 0 0 3.25em;
+    text-align: center;
+    width: 86vw;
     
 }
 
@@ -399,32 +446,16 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 
 */
 
-.contact-list-items{
-    font-size: 0;
-    list-style-type: none;
-
-}
-
-#copyright-div {
-    color: white;
-    height: 5.5vh;
-    float: left;
-    font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
-    padding: 0.44em 0 0 3.25em;
-    text-align: center;
-    width: 86vw;
-    
-}
-
 /*--------------- MISC. AREA ---------------*/
+
 /* Consists of code that applies to various sections of the website */
 
-
+/* Added no border since by default, it adds a border around the arrow icon */
 #portfolio a .arrow-size,  #about a .arrow-size, #contact a .arrow-size{
     border: none;
 }
 
+/* Added padding for the arrow icons so that it floats on the bottom-right side of the page */
 #portfolio a .arrow-size {
     padding: 0.25em 0 0 92em;
     
@@ -440,6 +471,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
     
 }
 
+/* Added a div containing the last arrow-up icon for the contacts section in order to float it alongside the copyright footer div */
 #contact-arrow {
     float: left;
     
