@@ -2,7 +2,8 @@
 
 MAIN CSS Sheet for My Portfolio Website
 
-Font used
+Fonts used
+----------
 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -10,38 +11,26 @@ font-family: 'Lato', sans-serif;
 
 **Will modify for responsive design** 
 **Revise CSS Comments and Code (reorganize, rearrange, etc.)**
-
 */
 
-html {
+html, body {  
     width: 100%;
     height: 100%;
     
 }
+
 body {
-    width: 100%;
-    height: 100%;
     background-color: #bbb;
     
 }
 
-/*body {
-    background-color: #ffffff;
-    border: 5px solid yellow;
-    height: auto;
-    overflow: auto;
-    width: auto;
-    
-}*/
-
-/* HEADER AREA */
+/*--------------- HEADER AREA ---------------*/
 
 #header1 {
     background: url('../img/mountains-backdrop.JPG') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     background-position: center;
-    /*height: 120vh;*/
+    background-size: cover;
     height: 100%;
     padding: 0.625em;
     width: auto;
@@ -50,8 +39,8 @@ body {
 
 .full-width1 {
     height: 50em;
-    padding: 0.625em;
     margin: 0 auto;
+    padding: 0.625em;
     
 }
 
@@ -64,29 +53,27 @@ body {
     
 }
 
-#header-halfwidth1 ul li a{
+#header-halfwidth1 ul li a {
     color: #14afb8;
     text-decoration: none;
-    text-shadow: 1px 1px white;
+    text-shadow: 0.05em 0.05em white;
     
 }
 
 #header-halfwidth1 ul li a:hover {
     color: #f0f40b;
-    text-decoration:overline; 
+    text-decoration: overline; 
     
 }
 
 .header-text-style {
-    /*color: #bdbf09;*/
     color: #d8db0a;
     font-family: 'Roboto', sans-serif;
     font-size: 3.75em;
     line-height: 1em;
-    padding: 25vh 2vw 0vh 20vw;
-    margin-right: auto;
-    margin-left: auto;
-    text-shadow: 1px 1px white;
+    margin: 0 auto 0 auto;
+    padding: 32vh 2vw 0vh 20vw;
+    text-shadow: 0.015em 0.015em white;
     
 }
 
@@ -107,18 +94,17 @@ nav {
 }
 
 nav ul li a {
+    font-size: 1.5em;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.5em;
     
 }
 
-/* PORTFOLIO AREA */
+/*--------------- PORTFOLIO AREA ---------------*/
 
 #portfolio {
     background-color: white;
     height: 90.625em;
-    padding: 0;
     
 }
 
@@ -127,26 +113,24 @@ nav ul li a {
     float: left;
     line-height: 0;
     margin: 0 0 2em 0;
-    padding: 0 0 0 41.5%;
+    padding: 0 0 0 40.5%;
     width: 57vw;
     
 }
 
 .portfolio-halfwidth1 {
-
     height: 375px;
     float: left;
-    padding: 50px 0px 0px 100px;
+    padding: 3.125em 0 0 6.25em;
     width: 40%;
     
 }
 
 
 .portfolio-halfwidth2 {
-
     height: 410px;
     float: left;
-    padding: 15px 0px 0px 5px;
+    padding: 0.9375em 0 0 0.3125px;
     text-align: left;
     width: 50%;
     
@@ -154,10 +138,10 @@ nav ul li a {
 
 .portfolio-header {
     color: #14afb8;
-    font-size: 36pt;
     font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
     font-weight: bold;
-    padding: 0.5em 0em 0em 0em;
+    padding: 0.5em 0 0 0;
     
 }
 
@@ -166,32 +150,23 @@ nav ul li a {
     
 }
 
-/*
-#portfolio img:hover {
-    opacity: 0.3;
-    transition: 0.5s ease;
-    
-}*/
-
 .image {
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
     backface-visibility: hidden;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
     
 }
 
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    top: 50%;
     left: 50%;
+    opacity: 0;
+    text-align: center;
+    top: 50%;
     transform: translate( 0.25%, -400%);
     -ms-transform: translate(-50%, -50%);
     width: 550px;
-    /*transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);*/
-    text-align: center;
+    transition: .5s ease;
     
 }
 
@@ -244,60 +219,58 @@ nav ul li a {
     
 }
 
-/* ABOUT AREA */
+/*--------------- ABOUT AREA ---------------*/
 
 #about {
-    /*background-color: #087e8b;*/
-    height: 650px;
-    padding: 10px;
-    background: url('../img/hero-image.png') no-repeat;
+    background: url('../img/clouds.JPG') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    /*height: 120vh;*/
+    height: 40.625em;
+    padding: 0.625em;
     width: auto;
     
 }
 
 .full-width3 {
-    height: 100px;
-    margin: 0px 0px 80px 0px;
     float: left;
-    width: 195vh;
+    height: 6.25em;
     line-height: 0;
+    margin: 0 0 5em 0;
     text-align: center;
+    width: 195vh;
     
 }
 
 .about-header {
     color: #14afb8;
-    font-size: 36pt;
     font-family: 'Roboto', sans-serif;
+    font-size: 3em;
     font-weight: bold;
-    padding: 0.5em 0em 0em 0em;
-    text-shadow: 0.25px 0.25px black;
+    padding: 0.5em 0 0 0;
+    text-shadow: 0.015em 0.015em white;
     
 }
 
 #about img {
-    border: 0.5px solid;
+    border: 0.03em solid grey;
     
 }
 
 .about-halfwidth1 {
-    height: 365px;
+    height: 22.8125em;
     float: left;
-    padding: 0px 20px 0px 120px;
-    width: 550px;
+    padding: 0 1.25em 0 7.5em;
+    width: 34.375em;
     
 }
 
 .about-halfwidth2 {
-    height: 400px;
+    height: 25em;
     float: left;
-    padding: 0px 30px 0px 20px;
+    padding: 0 1.875em 0 1.25em;
     text-align: left;
-    text-shadow: 0.25px 0.25px black;
+    text-shadow: 0.015625em 0.015625px white;
     width: 47.5vw;
     
 }
@@ -307,6 +280,7 @@ nav ul li a {
     font-family: 'Montserrat', sans-serif;
     font-size: 22pt;
     font-weight: 300;
+    text-shadow: 0.01em 0.01em white;
     
 }
 
@@ -319,12 +293,12 @@ nav ul li a {
 }
 
 
-/* CONTACT AREA */
+/*--------------- CONTACT AREA ---------------*/
 
 #contact {
     background-color: #095156;
     clear: both;
-    height: 400px;
+    height: 350px;
     padding: 10px;
     
 }
@@ -341,7 +315,7 @@ nav ul li a {
 
 .third-width {
     float: left;
-    height: 33vh;
+    height: 28vh;
     padding: 0 0 0 2.5em;
     text-align: center;
     width: 59vh;
@@ -446,7 +420,7 @@ nav ul li a {
     
 }
 
-/* MISC. AREA */
+/*--------------- MISC. AREA ---------------*/
 
 
 #portfolio a .arrow-size,  #about a .arrow-size, #contact a .arrow-size{
@@ -473,42 +447,4 @@ nav ul li a {
     
 }
 
-/*.bolded-leters {
-    font-weight: bold;
-    
-}
 
-.black-lora-font {
-    color: #2b2b2b; 
-    font-family: 'Lora', serif;
-    
-}
-
-.black-source-sans-pro-font {
-    color: #2b2b2b; 
-    font-family: 'Source Sans Pro', sans-serif; 
-    
-}
-
-#font-size36 {
-    font-size: 36px;
-    
-}
-
-.bolded-text {
-    font-size: 29px;
-    font-weight: bold;
-    
-}
-
-.unbolded-text {
-    font-weight: normal;
-    
-}
-
-
-.arrow-up {
-    padding: 0px 0px 0px 1450px;
-    
-}
-*/
