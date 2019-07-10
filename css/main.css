@@ -36,7 +36,7 @@ body {
     width: auto;
     
 }
-
+/* The whole header section */
 .full-width1 {
     height: 50em;
     margin: 0 auto;
@@ -44,10 +44,11 @@ body {
     
 }
 
+/* The Nav Bar */
 #header-halfwidth1 {
     float: left;
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 2.5em;
+    line-height: 1em;
     padding: 0px 15% 0px 15%;
     width: 68vw;
     
@@ -247,7 +248,7 @@ nav ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: bold;
-    padding: 0.5em 0 0 0;
+    padding: 0.5em 0 0 0.25em;
     text-shadow: 0.015em 0.015em white;
     
 }
@@ -298,24 +299,24 @@ nav ul li a {
 #contact {
     background-color: #095156;
     clear: both;
-    height: 350px;
-    padding: 10px;
+    height: 23em;
+    padding: 0.625em;
     
 }
 
 .full-width4 {
     float: left;
-    height: 90px;
+    height: 5.625em;
     line-height: 0;
-    margin-bottom: 20px;
-    width: 200vh;
+    margin-bottom: 1.25em;
     text-align: center;
+    width: 200vh;
     
 }
 
 .third-width {
     float: left;
-    height: 28vh;
+    height: 30vh;
     padding: 0 0 0 2.5em;
     text-align: center;
     width: 59vh;
@@ -329,15 +330,6 @@ nav ul li a {
     font-weight: bold;
     
 }
-
-/*.contact-list-items{
-    float: left;
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 0px;
-    list-style-type: none;
-    padding: 0 60px 0px 0px;
-
-}*/
 
 .contact-subheader {
     color: white;
@@ -375,6 +367,12 @@ nav ul li a {
     
 }
 
+/* 
+Attempting to add alternating social media image logo links when the user hovers their mouse over it
+
+Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Austen project but not this one for some reason.
+*/
+
 /*
 
 .linkedin-logo {
@@ -402,7 +400,7 @@ nav ul li a {
 */
 
 .contact-list-items{
-    font-size: 0px;
+    font-size: 0;
     list-style-type: none;
 
 }
@@ -413,7 +411,6 @@ nav ul li a {
     float: left;
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
-    /*font-family: 'Roboto', sans-serif;*/
     padding: 0.44em 0 0 3.5em;
     text-align: center;
     width: 86vw;
@@ -421,6 +418,7 @@ nav ul li a {
 }
 
 /*--------------- MISC. AREA ---------------*/
+/* Consists of code that applies to various sections of the website */
 
 
 #portfolio a .arrow-size,  #about a .arrow-size, #contact a .arrow-size{
