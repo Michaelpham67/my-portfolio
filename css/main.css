@@ -7,6 +7,8 @@ Fonts used
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Karla', sans-serif;
 
 **Will modify for responsive design** 
 
@@ -48,43 +50,42 @@ body {
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1em;
-    padding: 0px 15% 0px 15%;
+    line-height: 0em;
+    padding: 0px 14% 0px 14%;
     width: 68vw;
     
 }
 
 /* The Nav Bar list elements */
 #header-halfwidth1 ul li a {
-    color: #30dfe8;
+    color: #00dae6;
     font-weight: 400;
+    letter-spacing: 0.05em;
     text-decoration: none;
-    text-shadow: 0.01em 0.01em white;
     
 }
 
 #header-halfwidth1 ul li a:hover {
-    color: #f1f524;
+    color: #fbff1a;
     text-decoration: overline; 
     
 }
 
 /* The main header text */
 .header-text-style {
-    color: #f1f524;
-    font-family: 'Roboto', sans-serif;
+    color: #fbff1a;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 3.75em;
-    line-height: 1em;
+    line-height: 1.2em;
     margin: 0 auto 0 auto;
     padding: 32vh 2vw 0vh 20vw;
-    text-shadow: 0.01em 0.01em white;
+
     
 }
 
 nav {
-    height: 3.75em;
+    height: 0;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -101,7 +102,7 @@ nav {
 }
 
 nav ul li a {
-    font-size: 1.5em;
+    font-size: 1.35em;
     text-transform: uppercase;
     text-decoration: none;
     
@@ -129,10 +130,10 @@ nav ul li a {
 /* styling of the main Portfolio header */
 .portfolio-header {
     color: #14afb8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
     font-weight: bold;
-    padding: 0.5em 0 0 0.25em;
+    padding: 0.5em 0 0 0;
     
 }
 
@@ -153,6 +154,23 @@ nav ul li a {
     text-align: left;
     width: 50%;
     
+}
+
+/* The subheaders of the right side portfolio sections */
+.portfolio-subheader {
+    color: #14afb8;
+    font-family: 'Karla', sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    
+}
+
+/* The paragraphs of the right side portfolio sections */
+.portfolio-p-styles {
+    color: #14afb8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    font-weight: 100;
 }
 
 /* styling of the Portfolio images */
@@ -217,23 +235,6 @@ nav ul li a {
     
 }
 
-/* The subheaders of the right side portfolio sections */
-.portfolio-subheader {
-    color: #14afb8;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22pt;
-    font-weight: bold;
-    
-}
-
-/* The paragraphs of the right side portfolio sections */
-.portfolio-p-styles {
-    color: #14afb8;
-    font-family: 'Lato', sans-serif;
-    font-size: 20pt;
-    font-weight: 100;
-}
-
 /*--------------- ABOUT AREA ---------------*/
 
 /* The background image div of the about section */
@@ -261,12 +262,32 @@ nav ul li a {
 
 /* The styling of the about main header */
 .about-header {
-    color: #19dbe6;
-    font-family: 'Roboto', sans-serif;
+    color: 	#00dae6;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
     font-weight: bold;
     padding: 0.5em 0 0 0.25em;
     text-shadow: 0.015em 0.015em white;
+    
+}
+
+/* The subheaders of the about me section */
+.about-subheader {
+    color: 	#00dae6;
+    font-family: 'Karla', sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    text-shadow: 0.015em 0.015em white;
+    
+}
+
+/* The paragraphs of the about me section */
+.about-p-styles {
+    color: 	#00dae6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23pt;
+    font-weight: 600;
+    text-shadow: 0.01em 0.01em white;
     
 }
 
@@ -295,26 +316,6 @@ nav ul li a {
     
 }
 
-/* The subheaders of the about me section */
-.about-subheader {
-    color: #19dbe6;
-    font-family: 'Lato', sans-serif;
-    font-size: 25pt;
-    font-weight: bold;
-    text-shadow: 0.015em 0.015em white;
-    
-}
-
-/* The paragraphs of the about me section */
-.about-p-styles {
-    color: #19dbe6;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 23pt;
-    font-weight: 600;
-    text-shadow: 0.01em 0.01em white;
-    
-}
-
 /*--------------- CONTACT AREA ---------------*/
 
 #contact {
@@ -340,9 +341,10 @@ nav ul li a {
 /* The main header of the contacts section */
 .contact-header {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
     font-weight: bold;
+    padding: 0 0 0 0;
     
 }
 
@@ -389,11 +391,14 @@ nav ul li a {
 
 /* Styling of the GitHub and LinkedIn logo links */
 #contact ul li {
-    list-style: none;
     display: inline-block;
-    float: left;
-    margin: 0 0 0 0;
-    padding: 0 0 0 5.25vw;
+    list-style: none;
+    padding: 0 1vw 0 2.5vw;
+    
+}
+
+#logos-div {
+    width: 50vh;
     
 }
 
@@ -412,9 +417,9 @@ nav ul li a {
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
-    padding: 0.44em 0 0 3.25em;
+    padding: 0.44em 0 0 3.75em;
     text-align: center;
-    width: 86vw;
+    width: 84.75vw;
     
 }
 
@@ -471,7 +476,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 }
 
 #contact a .arrow-size {
-    padding: 1em 0 0 5em;
+    padding: 1em 0 0 5.75em;
     
 }
 
