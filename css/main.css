@@ -49,18 +49,18 @@ body {
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
-    line-height: 1em;
-    padding: 0px 15% 0px 15%;
+    line-height: 0em;
+    padding: 0px 14% 0px 14%;
     width: 68vw;
     
 }
 
 /* The Nav Bar list elements */
 #header-halfwidth1 ul li a {
-    color: #00f2ff;
+    color: #00dae6;
     font-weight: 400;
+    letter-spacing: 0.05em;
     text-decoration: none;
-    text-shadow: 0.015em 0.015em white;
     
 }
 
@@ -76,7 +76,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 3.75em;
-    line-height: 1em;
+    line-height: 1.2em;
     margin: 0 auto 0 auto;
     padding: 32vh 2vw 0vh 20vw;
 
@@ -84,7 +84,7 @@ body {
 }
 
 nav {
-    height: 3.75em;
+    height: 0;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -94,14 +94,14 @@ nav {
 /* Styling for the Nav elements */
 .nav-list-items{
     float: left;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; 
     list-style-type: none;
     margin-left: 6.25em;
 
 }
 
 nav ul li a {
-    font-size: 1.4em;
+    font-size: 1.35em;
     text-transform: uppercase;
     text-decoration: none;
     
