@@ -7,6 +7,7 @@ Fonts used
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif;
+font-family: 'Comfortaa', cursive;
 
 **Will modify for responsive design** 
 
@@ -48,7 +49,6 @@ body {
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
-    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1em;
     padding: 0px 15% 0px 15%;
     width: 68vw;
@@ -73,7 +73,7 @@ body {
 /* The main header text */
 .header-text-style {
     color: #fbff1a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 3.75em;
     line-height: 1em;
@@ -94,14 +94,14 @@ nav {
 /* Styling for the Nav elements */
 .nav-list-items{
     float: left;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
     margin-left: 6.25em;
 
 }
 
 nav ul li a {
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-transform: uppercase;
     text-decoration: none;
     
@@ -129,10 +129,10 @@ nav ul li a {
 /* styling of the main Portfolio header */
 .portfolio-header {
     color: #14afb8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
     font-weight: bold;
-    padding: 0.5em 0 0 0.25em;
+    padding: 0.5em 0 0 0;
     
 }
 
@@ -262,7 +262,7 @@ nav ul li a {
 /* The styling of the about main header */
 .about-header {
     color: 	#00dae6;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
     font-weight: bold;
     padding: 0.5em 0 0 0.25em;
@@ -340,10 +340,10 @@ nav ul li a {
 /* The main header of the contacts section */
 .contact-header {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
     font-weight: bold;
-    padding: 0 1.5vw 0 0;
+    padding: 0 0 0 0;
     
 }
 
@@ -416,7 +416,7 @@ nav ul li a {
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
-    padding: 0.44em 0 0 4.55em;
+    padding: 0.44em 0 0 3.75em;
     text-align: center;
     width: 84.75vw;
     
@@ -475,7 +475,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 }
 
 #contact a .arrow-size {
-    padding: 1em 0 0 4.75em;
+    padding: 1em 0 0 5.75em;
     
 }
 
