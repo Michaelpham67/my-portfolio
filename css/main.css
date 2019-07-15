@@ -57,27 +57,29 @@ body {
 
 /* The Nav Bar list elements */
 #header-halfwidth1 ul li a {
-    color: #17c5cf;
+    color: #30dfe8;
+    font-weight: 400;
     text-decoration: none;
-    text-shadow: 0.025em 0.025em white;
+    text-shadow: 0.01em 0.01em white;
     
 }
 
 #header-halfwidth1 ul li a:hover {
-    color: #f0f40b;
+    color: #f1f524;
     text-decoration: overline; 
     
 }
 
 /* The main header text */
 .header-text-style {
-    color: #f0f40b;
+    color: #f1f524;
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 3.75em;
     line-height: 1em;
     margin: 0 auto 0 auto;
     padding: 32vh 2vw 0vh 20vw;
-    text-shadow: 0.015em 0.015em white;
+    text-shadow: 0.01em 0.01em white;
     
 }
 
@@ -229,14 +231,14 @@ nav ul li a {
     color: #14afb8;
     font-family: 'Lato', sans-serif;
     font-size: 20pt;
-    
+    font-weight: 100;
 }
 
 /*--------------- ABOUT AREA ---------------*/
 
 /* The background image div of the about section */
 #about {
-    background: url('../img/clouds.JPG') no-repeat;
+    background: url('../img/forest.JPG') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -259,7 +261,7 @@ nav ul li a {
 
 /* The styling of the about main header */
 .about-header {
-    color: #14afb8;
+    color: #19dbe6;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: bold;
@@ -289,30 +291,29 @@ nav ul li a {
     float: left;
     padding: 0 1.875em 0 1.25em;
     text-align: left;
-    text-shadow: 0.015625em 0.015625px white;
     width: 47.5vw;
-    
-}
-
-/* The paragraphs of the about me section */
-.about-p-styles {
-    color: #14afb8;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22pt;
-    font-weight: 600;
-    text-shadow: 0.01em 0.01em white;
     
 }
 
 /* The subheaders of the about me section */
 .about-subheader {
-    color: #14afb8;
+    color: #19dbe6;
     font-family: 'Lato', sans-serif;
-    font-size: 24pt;
+    font-size: 25pt;
     font-weight: bold;
+    text-shadow: 0.015em 0.015em white;
     
 }
 
+/* The paragraphs of the about me section */
+.about-p-styles {
+    color: #19dbe6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23pt;
+    font-weight: 600;
+    text-shadow: 0.01em 0.01em white;
+    
+}
 
 /*--------------- CONTACT AREA ---------------*/
 
@@ -340,7 +341,7 @@ nav ul li a {
 .contact-header {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.75em;
+    font-size: 3em;
     font-weight: bold;
     
 }
