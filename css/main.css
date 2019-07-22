@@ -15,8 +15,9 @@ font-family: 'Karla', sans-serif;
 */
 
 html, body {  
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    /*height: 100%;
+    width: 100%;*/
     
 }
 
@@ -33,7 +34,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     padding: 0.625em;
     width: auto;
     
@@ -50,8 +51,8 @@ body {
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
-    line-height: 0em;
-    padding: 0px 14% 0px 14%;
+    line-height: 0;
+    padding: 0 15% 0 15%;
     width: 68vw;
     
 }
@@ -79,7 +80,7 @@ body {
     font-size: 3.75em;
     line-height: 1.2em;
     margin: 0 auto 0 auto;
-    padding: 32vh 2vw 0vh 20vw;
+    padding: 32vh 2vw 0 20vw;
 
     
 }
@@ -113,6 +114,7 @@ nav ul li a {
 #portfolio {
     background-color: white;
     height: 90.625em;
+    width: 100%;
     
 }
 
@@ -139,7 +141,7 @@ nav ul li a {
 
 /* The left Portfolio div section */
 .portfolio-halfwidth1 {
-    height: 375px;
+    height: 23.4375em;
     float: left;
     padding: 3.125em 0 0 6.25em;
     width: 40%;
@@ -160,7 +162,7 @@ nav ul li a {
 .portfolio-subheader {
     color: #14afb8;
     font-family: 'Karla', sans-serif;
-    font-size: 22pt;
+    font-size: 1.7em;
     font-weight: bold;
     
 }
@@ -169,13 +171,13 @@ nav ul li a {
 .portfolio-p-styles {
     color: #14afb8;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 1.45em;
     font-weight: 100;
 }
 
 /* styling of the Portfolio images */
 #portfolio img {
-    border: 1px solid #b7b7b7;
+    border: 0.0625em solid #b7b7b7;
     
 }
 
@@ -195,7 +197,7 @@ nav ul li a {
     top: 50%;
     transform: translate( 0.25%, -400%);
     -ms-transform: translate(-50%, -50%);
-    width: 550px;
+    width: 34.375em;
     transition: .5s ease;
     
 }
@@ -275,7 +277,7 @@ nav ul li a {
 .about-subheader {
     color: 	#00dae6;
     font-family: 'Karla', sans-serif;
-    font-size: 25pt;
+    font-size: 1.7em;
     font-weight: bold;
     text-shadow: 0.015em 0.015em white;
     
@@ -285,7 +287,7 @@ nav ul li a {
 .about-p-styles {
     color: 	#00dae6;
     font-family: 'Montserrat', sans-serif;
-    font-size: 23pt;
+    font-size: 1.6em;
     font-weight: 600;
     text-shadow: 0.01em 0.01em white;
     
@@ -293,8 +295,9 @@ nav ul li a {
 
 /* Styling of the profile image */
 .about-image {
-    height: 350px;
-    width: 350px;
+    height: 21.875em;
+    width: 21.875em;
+    
 }
 
 /* The left div of the about section consisting of the profile image */
@@ -324,6 +327,7 @@ nav ul li a {
     clear: both;
     height: 23.5em;
     padding: 0.625em;
+    width: auto;
     
 }
 
@@ -362,7 +366,7 @@ nav ul li a {
 .contact-subheader {
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 24pt;
+    font-size: 1.7em;
     font-weight: bold;
     
 }
@@ -371,7 +375,7 @@ nav ul li a {
 .contact-p-styles {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 1.45em;
     font-weight: 500;
     
 }
@@ -486,4 +490,66 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
     
 }
 
+/*
+
+--------------- MEDIA QUERIES AREA ---------------
+
+                 WORK IN PROGRESS
+
+*/
+
+
+@media (max-width: 767px) {
+    /* 600px and lower; for mobile devices */
+    body {
+        background: red;
+        
+    }
+    
+    #header1 {       
+        height: 100vh;
+        padding: 0.625em;
+        width: 100vw;
+    
+    }
+    .full-width1 {
+        height: 100vh;
+        padding: 1vw;
+        width: 100vw;
+     
+    }
+    #header-halfwidth1 {
+        padding: 0 3vw 0 3vw;
+        width: 4vw;
+    
+    }
+    
+    nav {
+    width: 100vw;
+    
+    }
+
+    /* Styling for the Nav elements */
+    .nav-list-items{
+        margin-left: 2vw;
+
+    }
+
+    nav ul li a {
+        font-size: 1.35em;
+    
+    }
+    
+    
+}
+
+
+@media screen (min-width: 768px) and (max-width: 1199px) {
+    /* Between 601px and 1024px in width; for tablets */
+    body {
+        background: purple;
+        
+    }
+    
+}
 
