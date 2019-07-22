@@ -50,8 +50,8 @@ body {
 /* The Nav Bar */
 #header-halfwidth1 {
     float: left;
-    line-height: 0em;
-    padding: 0px 14% 0px 14%;
+    line-height: 0;
+    padding: 0 14% 0 14%;
     width: 68vw;
     
 }
@@ -79,7 +79,7 @@ body {
     font-size: 3.75em;
     line-height: 1.2em;
     margin: 0 auto 0 auto;
-    padding: 32vh 2vw 0vh 20vw;
+    padding: 32vh 2vw 0 20vw;
 
     
 }
@@ -293,8 +293,9 @@ nav ul li a {
 
 /* Styling of the profile image */
 .about-image {
-    height: 350px;
-    width: 350px;
+    height: 21.875em;
+    width: 21.875em;
+    
 }
 
 /* The left div of the about section consisting of the profile image */
