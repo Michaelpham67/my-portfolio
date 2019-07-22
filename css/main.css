@@ -141,7 +141,7 @@ nav ul li a {
 
 /* The left Portfolio div section */
 .portfolio-halfwidth1 {
-    height: 375px;
+    height: 23.4375em;
     float: left;
     padding: 3.125em 0 0 6.25em;
     width: 40%;
@@ -162,7 +162,7 @@ nav ul li a {
 .portfolio-subheader {
     color: #14afb8;
     font-family: 'Karla', sans-serif;
-    font-size: 22pt;
+    font-size: 1.7em;
     font-weight: bold;
     
 }
@@ -171,13 +171,13 @@ nav ul li a {
 .portfolio-p-styles {
     color: #14afb8;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 1.45em;
     font-weight: 100;
 }
 
 /* styling of the Portfolio images */
 #portfolio img {
-    border: 1px solid #b7b7b7;
+    border: 0.0625em solid #b7b7b7;
     
 }
 
@@ -197,7 +197,7 @@ nav ul li a {
     top: 50%;
     transform: translate( 0.25%, -400%);
     -ms-transform: translate(-50%, -50%);
-    width: 550px;
+    width: 34.375em;
     transition: .5s ease;
     
 }
@@ -277,7 +277,7 @@ nav ul li a {
 .about-subheader {
     color: 	#00dae6;
     font-family: 'Karla', sans-serif;
-    font-size: 25pt;
+    font-size: 1.7em;
     font-weight: bold;
     text-shadow: 0.015em 0.015em white;
     
@@ -287,7 +287,7 @@ nav ul li a {
 .about-p-styles {
     color: 	#00dae6;
     font-family: 'Montserrat', sans-serif;
-    font-size: 23pt;
+    font-size: 1.6em;
     font-weight: 600;
     text-shadow: 0.01em 0.01em white;
     
@@ -366,7 +366,7 @@ nav ul li a {
 .contact-subheader {
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 24pt;
+    font-size: 1.7em;
     font-weight: bold;
     
 }
@@ -375,7 +375,7 @@ nav ul li a {
 .contact-p-styles {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 1.45em;
     font-weight: 500;
     
 }
@@ -499,7 +499,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 */
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     /* 600px and lower; for mobile devices */
     body {
         background: red;
@@ -544,7 +544,7 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 }
 
 
-@media (min-width: 601px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     /* Between 601px and 1024px in width; for tablets */
     body {
         background: purple;
