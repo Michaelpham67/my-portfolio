@@ -21,6 +21,11 @@ html, body {
     
 }
 
+html {
+    font-size: 16px;
+    
+}
+
 body {
     background-color: #bbb;
     
@@ -50,9 +55,13 @@ body {
 
 /* The Nav Bar */
 #header-halfwidth1 {
+    display: inline;
     float: left;
+    height: 0;
     line-height: 0;
     padding: 0 15% 0 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 68vw;
     
 }
@@ -82,14 +91,6 @@ body {
     margin: 0 auto 0 auto;
     padding: 32vh 2vw 0 20vw;
 
-    
-}
-
-nav {
-    height: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
     
 }
 
