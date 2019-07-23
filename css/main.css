@@ -35,11 +35,15 @@ body {
 
 /* The background image section */
 #header1 {
+    align-items: flex-start;
     background: url('../img/mountains-backdrop.JPG') no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
     height: 100vh;
+    justify-content: space-around;
     padding: 0.625em;
     width: auto;
     
@@ -55,10 +59,12 @@ body {
 
 /* The Nav Bar */
 #header-halfwidth1 {
-    display: inline;
+    display: flex;
     float: left;
     height: 0;
     line-height: 0;
+    margin-right: auto;
+    margin-left: auto;
     padding: 0 15% 0 15%;
     margin-right: auto;
     margin-left: auto;
@@ -113,10 +119,14 @@ nav ul li a {
 /*--------------- PORTFOLIO AREA ---------------*/
 
 #portfolio {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     height: 90.625em;
     width: 100%;
-    
+
 }
 
 /* The div of the main Portfolio header */
@@ -179,22 +189,28 @@ nav ul li a {
 /* styling of the Portfolio images */
 #portfolio img {
     border: 0.0625em solid #b7b7b7;
-    
+    height: auto;
+    max-width: 100%;
+
 }
 
 /* Adding an opacity overlay effect when hovering over the portfolio images */
 .image {
     backface-visibility: hidden;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 1;
     transition: .5s ease;
     
 }
 
 .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     left: 50%;
     opacity: 0;
-    text-align: center;
     top: 50%;
     transform: translate( 0.25%, -400%);
     -ms-transform: translate(-50%, -50%);
@@ -242,10 +258,14 @@ nav ul li a {
 
 /* The background image div of the about section */
 #about {
+    align-items: center;
     background: url('../img/forest.JPG') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     height: 40.625em;
     padding: 0.625em;
     width: auto;
@@ -296,10 +316,17 @@ nav ul li a {
 
 /* Styling of the profile image */
 .about-image {
-    height: 21.875em;
-    width: 21.875em;
+    max-height: 21.875em;
+    max-width: 21.875em;
     
 }
+
+.about-image:hover {
+    opacity: 0.8;
+    transition: .5s ease;
+    
+}
+
 
 /* The left div of the about section consisting of the profile image */
 .about-halfwidth1 {
@@ -323,10 +350,14 @@ nav ul li a {
 /*--------------- CONTACT AREA ---------------*/
 
 #contact {
+    align-items: center;
     background-color: #0d6e73;
-    /*background-color: #095156;*/
     clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: #095156;*/
     height: 23.5em;
+    justify-content: flex-start;
     padding: 0.625em;
     width: auto;
     
