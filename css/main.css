@@ -30,11 +30,15 @@ body {
 
 /* The background image section */
 #header1 {
+    align-items: flex-start;
     background: url('../img/mountains-backdrop.JPG') no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
     height: 100vh;
+    justify-content: space-around;
     padding: 0.625em;
     width: auto;
     
@@ -50,8 +54,12 @@ body {
 
 /* The Nav Bar */
 #header-halfwidth1 {
+    display: flex;
     float: left;
+    height: 0;
     line-height: 0;
+    margin-right: auto;
+    margin-left: auto;
     padding: 0 15% 0 15%;
     width: 68vw;
     
@@ -85,14 +93,6 @@ body {
     
 }
 
-nav {
-    height: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    
-}
-
 /* Styling for the Nav elements */
 .nav-list-items{
     float: left;
@@ -119,7 +119,7 @@ nav ul li a {
     background-color: white;
     height: 90.625em;
     width: 100%;
-    
+
 }
 
 /* The div of the main Portfolio header */
@@ -251,10 +251,14 @@ nav ul li a {
 
 /* The background image div of the about section */
 #about {
+    align-items: center;
     background: url('../img/forest.JPG') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     height: 40.625em;
     padding: 0.625em;
     width: auto;
@@ -310,6 +314,13 @@ nav ul li a {
     
 }
 
+.about-image:hover {
+    opacity: 0.8;
+    transition: .5s ease;
+    
+}
+
+
 /* The left div of the about section consisting of the profile image */
 .about-halfwidth1 {
     height: 22.8125em;
@@ -332,10 +343,14 @@ nav ul li a {
 /*--------------- CONTACT AREA ---------------*/
 
 #contact {
+    align-items: center;
     background-color: #0d6e73;
-    /*background-color: #095156;*/
     clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: #095156;*/
     height: 23.5em;
+    justify-content: flex-start;
     padding: 0.625em;
     width: auto;
     
