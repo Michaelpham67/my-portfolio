@@ -112,6 +112,10 @@ nav ul li a {
 /*--------------- PORTFOLIO AREA ---------------*/
 
 #portfolio {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     height: 90.625em;
     width: 100%;
@@ -178,22 +182,28 @@ nav ul li a {
 /* styling of the Portfolio images */
 #portfolio img {
     border: 0.0625em solid #b7b7b7;
-    
+    height: auto;
+    max-width: 100%;
+
 }
 
 /* Adding an opacity overlay effect when hovering over the portfolio images */
 .image {
     backface-visibility: hidden;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 1;
     transition: .5s ease;
     
 }
 
 .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     left: 50%;
     opacity: 0;
-    text-align: center;
     top: 50%;
     transform: translate( 0.25%, -400%);
     -ms-transform: translate(-50%, -50%);
@@ -295,8 +305,8 @@ nav ul li a {
 
 /* Styling of the profile image */
 .about-image {
-    height: 21.875em;
-    width: 21.875em;
+    max-height: 21.875em;
+    max-width: 21.875em;
     
 }
 
