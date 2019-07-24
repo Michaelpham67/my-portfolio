@@ -45,7 +45,7 @@ body {
     height: 100vh;
     justify-content: space-around;
     padding: 0.625em;
-    width: auto;
+    /*width: auto;*/
     
 }
 
