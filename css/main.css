@@ -50,7 +50,7 @@ body {
     height: 100vh;
     justify-content: space-around;
     padding: 0.625em;
-    width: auto;
+    /*width: auto;*/
     
 }
 
@@ -510,32 +510,6 @@ Researched on StackOverflow, the HTML and CSS method worked for the Jubilee Aust
 
 /* Consists of code that applies to various sections of the website */
 
-/* Added no border since by default, it adds a border around the arrow icon */
-#portfolio a .arrow-size,  #about a .arrow-size, #contact a .arrow-size{
-    border: none;
-}
-
-/* Added padding for the arrow icons so that it floats on the bottom-right side of the page */
-#portfolio a .arrow-size {
-    padding: 0.25em 0 0 92em;
-    
-}
-
-#about a .arrow-size {
-    padding: 2.5em 0 0 91.5em;
-    
-}
-
-#contact a .arrow-size {
-    padding: 1em 0 0 5.75em;
-    
-}
-
-/* Added a div containing the last arrow-up icon for the contacts section in order to float it alongside the copyright footer div */
-#contact-arrow {
-    float: left;
-    
-}
 
 /*
 
